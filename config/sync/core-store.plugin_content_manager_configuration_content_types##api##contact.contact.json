@@ -1,0 +1,265 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::contact.contact",
+  "value": {
+    "uid": "api::contact.contact",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title_left": {
+        "edit": {
+          "label": "title_left",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title_left",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "credit_history_left": {
+        "edit": {
+          "label": "credit_history_left",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "credit_history_left",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "social_headquarters_left": {
+        "edit": {
+          "label": "social_headquarters_left",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "social_headquarters_left",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cui_left": {
+        "edit": {
+          "label": "cui_left",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cui_left",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cif_left": {
+        "edit": {
+          "label": "cif_left",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cif_left",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "email_left": {
+        "edit": {
+          "label": "email_left",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email_left",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "name_input": {
+        "edit": {
+          "label": "name_input",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name_input",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "email_input": {
+        "edit": {
+          "label": "email_input",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email_input",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "subject_input": {
+        "edit": {
+          "label": "subject_input",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "subject_input",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "message_input": {
+        "edit": {
+          "label": "message_input",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "message_input",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title_left",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "credit_history_left",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "social_headquarters_left",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cui_left",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cif_left",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "email_left",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "name_input",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "email_input",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "subject_input",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "message_input",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_center_item_centers",
+  "info": {
+    "displayName": "center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

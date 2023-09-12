@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_right_item_rights",
+  "info": {
+    "displayName": "right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  }
+}

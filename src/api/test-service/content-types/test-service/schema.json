@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "test_services",
+  "info": {
+    "singularName": "test-service",
+    "pluralName": "test-services",
+    "displayName": "Test Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

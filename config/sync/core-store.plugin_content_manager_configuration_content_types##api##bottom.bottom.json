@@ -1,0 +1,126 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::bottom.bottom",
+  "value": {
+    "uid": "api::bottom.bottom",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "left": {
+        "edit": {
+          "label": "left",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "left",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "center": {
+        "edit": {
+          "label": "center",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "center",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "right": {
+        "edit": {
+          "label": "right",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "right",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "left",
+        "center",
+        "right"
+      ],
+      "edit": [
+        [
+          {
+            "name": "left",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "center",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "right",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

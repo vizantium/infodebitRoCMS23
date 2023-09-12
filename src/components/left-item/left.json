@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_left_item_lefts",
+  "info": {
+    "displayName": "Left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

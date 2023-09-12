@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "bottoms",
+  "info": {
+    "singularName": "bottom",
+    "pluralName": "bottoms",
+    "displayName": "Bottom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "left": {
+      "displayName": "Left",
+      "type": "component",
+      "repeatable": false,
+      "component": "left-item.left",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "center": {
+      "displayName": "center",
+      "type": "component",
+      "repeatable": false,
+      "component": "center-item.center",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "right": {
+      "displayName": "right",
+      "type": "component",
+      "repeatable": false,
+      "component": "right-item.right",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_item_header_dropdowns",
+  "info": {
+    "displayName": "header_dropdown"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
